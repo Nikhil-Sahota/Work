@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Submit UI</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    .email-box {
+      display: flex;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      max-width: 400px;
+    }
+
+    .email-box input {
+      flex: 1;
+      padding: 15px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .email-box button {
+      background: linear-gradient(to right, #f46b00, #f68e1d);
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    .email-box button:hover {
+      background: linear-gradient(to right, #e55d00, #f47a10);
+    }
+  </style>
+</head>
+<body>
+  <div class="email-box">
+    <input type="email" placeholder="Your Email...">
+    <button>Send Now</button>
+  </div>
+</body>
+</html>
